@@ -10,10 +10,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* elementos base*/
 body{
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 
@@ -39,4 +40,13 @@ header nav a{
 
 header nav a:hover{
     color:var(--pink);
+}
+
+/* item principal*/
+.item-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/lavie.jpg');
+
+    height: 900px;
+    background-size: cover;
 }
