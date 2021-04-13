@@ -49,4 +49,17 @@ header nav a:hover{
 
     height: 900px;
     background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.item-principal .descricao{
+    margin-bottom: 25px ;
+}
+
+.titulo{
+    font-size: 50px;
 }
