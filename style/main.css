@@ -43,11 +43,20 @@ header nav a:hover{
 }
 
 /* item principal*/
-.item-principal{
-    font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/lavie.jpg');
 
-    height: 900px;
+body .item-principal .container{
+    margin-left: 10px;
+    
+    background-size: contain;
+    
+    
+}
+
+.item-principal{
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/lavie3.jpg');
+
+    height: 880px;
     background-size: cover;
 
     display: flex;
@@ -57,9 +66,36 @@ header nav a:hover{
 }
 
 .item-principal .descricao{
-    margin-bottom: 25px ;
+    margin-top: 10px;
+    margin-bottom: 40px ;
+    
 }
 
 .titulo{
+    margin-top: 15%;
     font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    margin-right: 15px;
+    padding: 15px;
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+    transition: .3s ease all;
+    
+}
+
+.botao i{
+    margin-right: 5px;
 }
