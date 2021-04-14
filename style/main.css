@@ -65,14 +65,15 @@ body .item-principal .container{
     align-items: flex-start;
 }
 
-.item-principal .descricao{
+.item-principal .container{
     margin-top: 10px;
     margin-bottom: 40px ;
+    width: 70%;
     
 }
 
 .titulo{
-    margin-top: 15%;
+    
     font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
     
