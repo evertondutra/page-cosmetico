@@ -5,8 +5,13 @@
     }
 
     .botao{
-        margin-top: 5px;
-        width: 150px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+
+    .item-principal{
+        margin-top: 10px;
+        height:500px;
     }
     
 }

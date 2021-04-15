@@ -55,9 +55,10 @@ body .item-principal .container{
 
 .item-principal{
     font-size: 20px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/lavie3.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/lavie0.jpg');
 
-    height: 880px;
+    height:800px;
+
     background-size: cover;
 
     display: flex;
@@ -67,17 +68,21 @@ body .item-principal .container{
 }
 
 .item-principal .container{
-    margin-top: 10px;
-    margin-bottom: 40px ;
+    
     width: 70%;
     
 }
 
 .titulo{
     
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
-    
+}
+
+.titulo-geral{
+    font-size: 35px;
+    color: aqua;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .botao{
@@ -106,4 +111,39 @@ body .item-principal .container{
     height: 300px;
     width: 100%;
     display: block;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%);
+}
+
+.carrosel-item{
+    margin-top: 5px;
+    
+}
+
+.preco{
+    margin: 10px;
+}
+
+.botaovoltar{
+    width: 100px;
+
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    margin-left: 900px;
+    padding: 15px;
+    font-size: 16px;
+    
+    
+    cursor: pointer;
+}
+
+.botaovoltar:hover{
+    background-color: white;
+    color: black;
+    transition: .3s ease all;
+}
+
+.perfumaria-principal{
+   
+    
 }
