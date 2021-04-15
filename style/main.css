@@ -18,6 +18,7 @@ body{
 }
 
 
+
 header .container{
     display: flex;
     flex-direction: row;
@@ -74,15 +75,16 @@ body .item-principal .container{
 }
 
 .titulo{
-    
+    margin-left: 10px;
     font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Gabriola Regular', Courier, monospace;
 }
 
 .titulo-geral{
-    font-size: 35px;
-    color: aqua;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    margin-left: 880px;
+    font-size: 50px;
+    color: rgb(213, 216, 41);
+    font-family:'Monotype Corsiva', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .botao{
@@ -144,6 +146,21 @@ body .item-principal .container{
 }
 
 .perfumaria-principal{
-   
-    
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/perfume.jpg');
+    background-size: cover;
+}
+
+.cabelo-principal{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/cabelo.jpg');
+    background-size: cover;
+}
+
+.maquiagem-principal{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/maquiagem.jpg');
+    background-size: cover;
+}
+
+.corpo-principal{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/corpo.jpg');
+    background-size: cover;
 }
