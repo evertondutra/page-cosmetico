@@ -146,21 +146,21 @@ body .item-principal .container{
 }
 
 .perfumaria-principal{
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/perfume.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/perfume.jpg');
     background-size: cover;
 }
 
 .cabelo-principal{
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/cabelo.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/cabelo.jpg');
     background-size: cover;
 }
 
 .maquiagem-principal{
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/maquiagem.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/maquiagem.jpg');
     background-size: cover;
 }
 
 .corpo-principal{
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/corpo.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/corpo.jpg');
     background-size: cover;
 }
