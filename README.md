@@ -1,1 +1,1 @@
-Página html criada para vendas de cosméticos com corousel
+Página html criada para vendas de cosméticos com corrossel
